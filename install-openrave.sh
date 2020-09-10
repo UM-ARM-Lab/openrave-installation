@@ -22,7 +22,7 @@ echo ""
 pip install --upgrade --user sympy==0.7.1
 
 # OpenRAVE
-if [ ${UBUNTU_VER} = '14.04' ] || [ ${UBUNTU_VER} = '16.04' ] then
+if [ ${UBUNTU_VER} = '14.04' ] || [ ${UBUNTU_VER} = '16.04' ]; then
 	RAVE_COMMIT=7c5f5e27eec2b2ef10aa63fbc519a998c276f908
 	echo ""
 	echo "Installing OpenRAVE 0.9 from source (Commit ${RAVE_COMMIT})..."
